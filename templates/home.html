@@ -1,0 +1,458 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Admission </title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+
+  <!-- -----iconscout cdn------ -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!-- --------google font------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- ---------swiper js------- -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="home.html"><h4>COLLEGE ADMISSION</h4></a>
+      <ul class="nav__menu">
+        <li><a id="home" href="">Home</a></li>
+        <li><a href="about/">About</a></li>
+        <!-- <li><a href="">Course</a></li> -->
+        <li><a href="contact/">Contact</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+
+    </div>
+  </nav>
+  <!-- --------------End of navbar----------- -->
+
+
+
+
+
+
+
+  <header>
+    <div class="container header__container">
+      <div class="header__left">
+        <h1> Choose Your College Glow Up Your Future</h1>
+        <p>South India Educational Service Pvt Itd <br>
+          College Admission</p>
+          <h1>2022</h1>
+      </div>
+      <div class="header__right">
+        <div class="header__right-image">
+          <img src="{% static 'img/header.svg' %}">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- -----------End of header------------ -->
+
+
+
+
+
+
+  <div class="categories">
+    <div class="container categories__container">
+      <div class="categories__left">
+        <h1>Our Colleges</h1>
+        <p>All Top Private University <br>
+        All Anna University Colleges in chennai</p>
+        <a href="form/" class="btn">Register Here</a>
+      </div>
+  
+      <div class="categories__right">
+        <artical class="category">
+          <img src="{% static './img/srm.jpg' %}">
+          <h5>SRM UNIVERSITY</h5>
+         <!-- <span class="category__icon"><i class="uil uil-bitcoin-circle"></i></span>
+         <h5>Blockchain</h5>
+         <p>Lorem ipsum dolor sit consectetur elit. Consequuntur</p> -->
+        </artical>
+
+        <artical class="category">
+          <img src="{% static './img/mgr1.jpg' %}">
+          <h5>MGR UNIVERSITY</h5>
+          <!-- <span class="category__icon"><i class="uil uil-palette"></i></span>
+          <h5>Graphic Design</h5>
+          <p>Lorem ipsum dolor sit consectetur elit. Consequuntur</p> -->
+        </artical>
+
+        <artical class="category">
+          <img style="margin-top: 1.2rem;" src="{% static './img/ramc.jpg' %}">
+          <h5>SRI RAMACHANDRA UNIVERSITY</h5>
+          <!-- <span class="category__icon"><i class="uil uil-usd-circle"></i></span>
+          <h5>Finance</h5>
+          <p>Lorem ipsum dolor sit consectetur elit. Consequuntur</p> -->
+        </artical>
+
+        <artical class="category">
+          <img src="{% static './img/sath.jpg' %}">
+          <h5>SATHYABAMA UNIVERSITY</h5>
+          <!-- <span class="category__icon"><i class="uil uil-megaphone"></i></span>
+          <h5>Marketing</h5>
+          <p>Lorem ipsum dolor sit consectetur elit. Consequuntur</p> -->
+        </artical>
+
+        <artical class="category">
+          <img src="{% static './img/hin.jpg' %}">
+          <h5>HINDUSTAN UNIVERSITY</h5>
+          <!-- <span class="category__icon"><i class="uil uil-music"></i></span>
+          <h5>Music</h5>
+          <p>Lorem ipsum dolor sit consectetur elit. Consequuntur</p> -->
+        </artical>
+
+        <artical class="category">
+          <img src="{% static './img/bharth.jpg' %}">
+          <h5> BHARATH UNIVERSITY</h5>
+ 
+        </artical>
+
+        <artical class="category">
+          <img src="{% static './img/vel.jpg' %}">
+          <h5>VEL TECH UNIVERSITY</h5>
+ 
+        </artical>
+
+        <artical class="category">
+          <img src="{% static './img/VelsUni.jpg' %}">
+          <h5>VELS UNIVERSITY</h5>
+ 
+        </artical>
+      </div>
+    </div>
+  </div>
+  <!-- -------------End of Categories-------- -->
+
+
+
+
+
+  <section class="courses">
+  <h2>Our Popular Courses</h2>
+    <div class="container courses__container">
+      <artical class="course">
+        <div class="course__image">
+          <img src="{% static './img/ai.jpg' %}">
+        </div>
+        <div class="course__info">
+          <h4>BTECH Artificial Intelligence</h4>
+
+        </div>
+      </artical>
+      <artical class="course">
+        <div class="course__image">
+          <img src="{% static './img/agri.jpg' %}">
+        </div>
+        <div class="course__info">
+          <h4>AGRICULTURE</h4>
+
+        </div>
+      </artical>
+
+      <artical class="course">
+        <div class="course__image">
+          <img src="{% static './img/mbbs.jpg' %}">
+        </div>
+        <div class="course__info">
+          <h4>MBBS</h4>
+
+        </div>
+        
+      </artical>
+      <artical class="course">
+        <div class="course__image">
+          <img src="{% static './img/law.jpg' %}">
+        </div>
+        <div class="course__info">
+          <h4>LAW</h4>
+
+        </div>
+        
+      </artical>
+      <artical class="course">
+        <div class="course__image">
+          <img src="{% static './img/dataSci.jpg' %}">
+        </div>
+        <div class="course__info">
+          <h4>DATA SCIENCE</h4>
+
+        </div>
+      </artical>
+
+      <artical class="course">
+        <div class="course__image">
+          <img src="{% static './img/phar.jpg' %}">
+        </div>
+        <div class="course__info">
+          <h4>PHARMACY</h4>
+
+        </div>
+      </artical>
+
+    
+    </div>
+  </section>
+
+  <!-- -------------End of course------------ -->
+
+
+<!-- ----------Faq & Answer----------- -->
+
+  <section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faqs__container">
+      <artical class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Eligible Marks ?</h4>
+          <p>Just pass</p>
+        </div>
+      </artical>
+
+      <artical class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Which is better arts or engineering ?</h4>
+          <p>People who are interested in technology often tend to choose Engineering as their career and those who are interested in creativity and designing, their best option would be to choose a course in Arts and Science <b> ( I recommend engineering(BE) or B Tech)</b></p>
+        </div>
+      </artical>
+
+      <artical class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Which courses need neet exam ?</h4>
+            <p>
+              MBBS – Bachelor of Medicine and Bachelor of Surgery. <br>
+              B.D.S <br>
+              BAMS – Bachelor of Ayurvedic Medicine and Surgery. <br>
+              Bachelor of Veterinary Science. <br>
+              BHMS – Bachelor of Homeopathic Medicine and Surgery
+            </p>
+        </div>
+      </artical>
+
+      <artical class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Do you have placement ?</h4>
+          <p>Yes </p>
+        </div>
+      </artical>
+
+      <artical class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Can you join government colleges ?</h4>
+          <p>Yes, We do...Contact this number- 7010028358</p>
+        </div>
+      </artical>
+
+      <artical class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>If you have any doubt..? </h4>
+          <p>Contact this number-7010028358</p>
+        </div>
+      </artical>
+
+      
+    </div>
+  </section>
+
+  <!-- ---------- End of Faq & Answer ----------- -->
+
+
+
+
+
+
+<!-- ---------Testimonial-------- -->
+
+  <section class="container testimonials__container mySwiper">
+    <h2>2021 Student's Testimonials</h2>
+    <div class="swiper-wrapper">
+      <artical class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="{% static './img/ava1.jpg' %}">
+        </div>
+        <div class="testimonial__info">
+          <h5>Nithish</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>This is Nithish. Iam studing BCA at MGR University and the overall rating of Dr. M.G.R. University is 4.7, with Students satisfaction being rated at the top and given a rating of 4.3. However, Skill development is rated the lowest at 3.7. </p>
+        </div>
+      </artical>
+
+      <artical class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="{% static './img/ava2.jpg' %}">
+        </div>
+        <div class="testimonial__info">
+          <h5>Neeraj</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>My Name is Neeraj. Iam studing BTECH - AI at MGR University and the overall rating of Dr. M.G.R. University is 4.7, with Students satisfaction being rated at the top and given a rating of 4.5. Skill development is rated the lowest at 4.5.</p>
+        </div>
+      </artical>
+
+      <artical class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="{% static './img/ava3.jpg' %}">
+        </div>
+        <div class="testimonial__info">
+          <h5>Neha</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>My Name is Neha. Iam studing BTECH - CSE at SRM University and the overall rating of SRM University is 4.9, with Students satisfaction being rated at the top and given a rating of 4.4. Skill development is rated the lowest at 4.8.</p>
+        </div>
+      </artical>
+
+      <artical class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="{% static './img/ava4.jpg' %}">
+        </div>
+        <div class="testimonial__info">
+          <h5>Karthick</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>This is Karthick. Iam studing BTECH - EEE MGR University and the overall rating of Dr. M.G.R. University is 4.5, with Students satisfaction being rated at the top and given a rating of 4.0. Skill development is rated the lowest at 4.1.</p>
+        </div>
+      </artical>
+
+      <artical class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="{% static './img/ava5.jpg' %}">
+        </div>
+        <div class="testimonial__info">
+          <h5>JayaShree</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>My Name is JayaShree. Iam studing B.COM Ramachandra University and the overall rating of Dr. M.G.R. University is 4.7, with Students satisfaction being rated at the top and given a rating of 4.5. Skill development is rated the lowest at 4.5.</p>
+        </div>
+      </artical>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+<!-- --------End of testimonials--------- -->
+
+
+
+<!-- ---------footer------- -->
+
+<footer>
+  <div class="container footer__container">
+    <div class="footer__1">
+      <a href="home.html" class="footer__logo"><h4>COLLEGE ADMISSION 2022</h4></a>
+      <p>Top colleges</p>
+    </div>
+
+    <div class="footer__2">
+      <h4>Permalinks</h4>
+      <ul class="permalinks">
+        <li><a href="">Home</a></li>
+        <li><a href="about/">About</a></li>
+        <!-- <li><a href="course.html">Course</a></li> -->
+        <li><a href="contact/">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- <div class="footer__3">
+      <h4>Primacy</h4>
+      <ul class="privacy">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms and conditions</a></li>
+        <li><a href="#">Refund Policy</a></li>
+      </ul>
+    </div> -->
+
+    <div class="footer__4">
+      <h4>Contact Us</h4>
+      <!-- <p>South India Educational Service Pvt Itd <br>
+        College Admission</p> -->
+       
+      <div>
+        <p>7010028358 | 9094217916</p>
+        <p>mrkishoremani@gmail.com</p>
+      </div>
+
+      <ul class="footer__socials">
+        <li>
+          <a href="#"><i class="uil uil-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="uil uil-instagram-alt"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="uil uil-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+        </li>
+      </ul>
+    </div> 
+  </div>
+  <div class="footer__copyright">
+    <small>Copyright &copy; </small>
+  </div>
+</footer>
+
+
+<!-- -----------end of footer--------- -->
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="{% static './main.js' %}"></script>
+
+
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView:1,
+      spaceBetween:30,
+      pagination:{
+        el:".swiper-pagination",
+        clickable: true,
+      },
+      // when window width is >= 600px
+      breakpoints:{
+        600:{
+          slidesPerView:2,
+        }
+      }
+     
+    });
+  </script>
+
+
+
+</body>
+</html>

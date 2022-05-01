@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: grid ;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  
+}
+h2,p{
+  color: white;
+  
+}
+h2{
+  font-size: 35px;
+  margin-left: 17%;
+  margin-bottom: -40%;
+  letter-spacing: 4px;
+
+
+}
+h2::after{
+  content: 'lation';
+  color:blue;
+  margin-bottom: 1rem;
+}
+p{
+ font-size: 20px;
+ margin-left: 20%;
+ margin-top: -110%;
+ letter-spacing: 3px;
+
+}
+.tic{
+  position: absolute;
+  right: 280px;
+}

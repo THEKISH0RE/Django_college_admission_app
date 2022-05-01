@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'form.css' %}" >
+<!-- <link href="{% static 'https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap' %}" rel="stylesheet"> -->
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form action="final/" method="post">
+          {% csrf_token %}
+					<label for="chk" aria-hidden="true">Registration Form</label>
+					<input type="text" name="name" id='name' placeholder="Your Name">
+          <input type="phone" id="phone" name="phone" placeholder="Your Number">
+					<input type="email" id="email" name="email" placeholder="name@gmail.com" >
+
+          <input list="browers" id="group" name="group" placeholder="---Group---">
+          <datalist id="browers">
+            <option value="Arts">
+            <option value="Engineer">
+            <option value="Medical">
+            <option value="Law">
+          </datalist>
+
+          <input list="tags" id='college' name="college" placeholder=" ---Select your college name---">
+          <datalist id="tags">
+            <option value="SRM University">
+            <option value="MGR University">
+            <option value="Sathybama University">
+            <option value="Sri Ramachandra University">
+            <option value="Bharath University">
+            <option value="Hindustan University">
+            <option value="Vel Tech University">
+            <option value="Vels University">
+          </datalist>
+          
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+
+
+	</div>
+</body>
+</html>
