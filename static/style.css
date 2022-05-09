@@ -150,6 +150,7 @@ header{
   background: var(--color-bg1);
   height: 42rem;
   padding-top: 7%;
+  /* padding-bottom: 30px; */
 }
 .categories h1{
   line-height: 1;
@@ -211,7 +212,7 @@ header{
 /* ------------Popular course--------- */
 
 .courses{
-  margin-top: 10rem;
+  margin-top: 20rem;
 
 }
 .courses__container{
