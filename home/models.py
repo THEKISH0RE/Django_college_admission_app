@@ -10,6 +10,7 @@ class Register(models.Model):
   college = models.CharField(max_length=30)
 
   def __str__(self):
-      return self.name
+      # return "" + +self.name + " " + self.phone + " " + str(self.email) + " "+ self.group + " " + self.college 
+      return f"Name={self.name},   phone={self.phone},   Email={self.email},   Group={self.group},   College={self.college}"
 
 
